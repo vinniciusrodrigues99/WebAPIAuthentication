@@ -3,7 +3,7 @@ using WebApiStudy.Domain;
 
 namespace WebApiStudy.Context;
 
-public class AppDbContext: DbContext
+public class AppDbContext: IdentityDbContext<ApplicationUser>
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {

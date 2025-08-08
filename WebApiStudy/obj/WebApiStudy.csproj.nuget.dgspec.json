@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MODALGR\\RiderProjects\\WebApiStudy\\WebApiStudy\\WebApiStudy.csproj": {}
+    "C:\\Users\\reusm\\OneDrive\\Desktop\\Macoratti\\WebAPIAuthentication\\WebApiStudy\\WebApiStudy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MODALGR\\RiderProjects\\WebApiStudy\\WebApiStudy\\WebApiStudy.csproj": {
+    "C:\\Users\\reusm\\OneDrive\\Desktop\\Macoratti\\WebAPIAuthentication\\WebApiStudy\\WebApiStudy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MODALGR\\RiderProjects\\WebApiStudy\\WebApiStudy\\WebApiStudy.csproj",
+        "projectUniqueName": "C:\\Users\\reusm\\OneDrive\\Desktop\\Macoratti\\WebAPIAuthentication\\WebApiStudy\\WebApiStudy.csproj",
         "projectName": "WebApiStudy",
-        "projectPath": "C:\\Users\\MODALGR\\RiderProjects\\WebApiStudy\\WebApiStudy\\WebApiStudy.csproj",
-        "packagesPath": "C:\\Users\\MODALGR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MODALGR\\RiderProjects\\WebApiStudy\\WebApiStudy\\obj\\",
+        "projectPath": "C:\\Users\\reusm\\OneDrive\\Desktop\\Macoratti\\WebAPIAuthentication\\WebApiStudy\\WebApiStudy.csproj",
+        "packagesPath": "C:\\Users\\reusm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reusm\\OneDrive\\Desktop\\Macoratti\\WebAPIAuthentication\\WebApiStudy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MODALGR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\reusm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,7 +25,7 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,12 +43,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -89,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
